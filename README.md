@@ -12,7 +12,9 @@ Haruta-Yamanaka ... **通信機能＆ゲーム内部**
 * **main.py**  
   GUIを表示するスクリプト  
   TCPClient.pyのClinetクラスを作って  
-  card情報をもらい、画面更新を行います。  
+  card情報をもらい、画面更新を行います。
+  ![image](https://github.com/user-attachments/assets/a14d2cc2-adf5-4cc8-9a44-382c0b8febc9)
+
 * **main2.py**  
   main.pyと一緒です。
   TCPClient2.pyのClientクラスを使っています。  
