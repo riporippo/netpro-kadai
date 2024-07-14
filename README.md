@@ -12,24 +12,28 @@ Haruta-Yamanaka ... **通信機能＆ゲーム内部**
 * **main.py**  
   GUIを表示するスクリプト  
   TCPClient.pyのClinetクラスを作って  
-  card情報をもらい、画面更新を行います。
-  ![image](https://github.com/user-attachments/assets/a14d2cc2-adf5-4cc8-9a44-382c0b8febc9)
-
+  card情報をもらい、画面更新を行います。  
+ ![classes_main](https://github.com/user-attachments/assets/6e4ff6ae-a999-4b6c-a711-d871813e5a04)　　
 * **main2.py**  
-  main.pyと一緒です。
-  TCPClient2.pyのClientクラスを使っています。  
+  main.pyと一緒です。  
+  TCPClient2.pyのClientクラスを使っています。    
 * **TCPClient.py**  
   serverとやりとりをします  
   GUIからの入力を受け付けて、server側に送り  
-  結果をserverから受け取って、main.pyに情報を提供する役割を担っています。　　
+  結果をserverから受け取って、main.pyに情報を提供する役割を担っています。  
+  ![classes_Client](https://github.com/user-attachments/assets/7ada9fab-85f6-4648-b755-8a9a7b1a1019)  
 * **TCPClinet2.py**  
   TCPClient.pyと一緒です。  
 * **TCPServer.py**
   二つのクライアントからの接続確立  
   ゲーム進行機能、cardクラスやplayerクラス  
   などの定義を行うスクリプト
-  ゲームの根幹を担います。
+  ゲームの根幹を担います。  
+  ![classes_tcpserver](https://github.com/user-attachments/assets/1783c6c2-66d8-43c6-b3b2-09e3c47b305e)  
 
+### クラス図全体とパッケージ  
+![packages_Server](https://github.com/user-attachments/assets/2be096e5-41e1-493d-aefe-60e16a39cb69)  
+![classes_Server](https://github.com/user-attachments/assets/41045b35-9ab1-47a5-b9d7-e023962c79fa)  
 ## ゲームの進行方法  
 1. Serverを起動
 2. main.py,main2.pyを起動し、GUI画面のstartボタンを押す
