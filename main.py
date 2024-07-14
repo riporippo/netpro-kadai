@@ -303,7 +303,7 @@ class BattleScene:
         original_image = pygame.transform.scale(original_image, (50, 100))
         #画像処理(ブラック)
         dark_image = original_image.copy()
-        darken_amount = 30
+        darken_amount = 80
         dark_image_surface = pygame.Surface(dark_image.get_size()).convert_alpha()
         dark_image_surface.fill((0,0,0,darken_amount))
         dark_image.blit(dark_image_surface,(0,0),special_flags=pygame.BLEND_RGBA_SUB)
