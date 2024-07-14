@@ -118,7 +118,7 @@ class Cards:
         m = len(self.numbers)
         for i in range(4):
             for card in self.cards[i*m:(i+1)*m]:
-                str += card.getNum() + ", "
+                str += card.getNumber() + ", "
             str += "\n"
         print(str)
         return self.cards
