@@ -12,7 +12,9 @@ Haruta-Yamanaka ... **通信機能＆ゲーム内部**
 * **main.py**  
   GUIを表示するスクリプト  
   TCPClient.pyのClinetクラスを作って  
-  card情報をもらい、画面更新を行います。  
+  card情報をもらい、画面更新を行います。
+  ![image](https://github.com/user-attachments/assets/a14d2cc2-adf5-4cc8-9a44-382c0b8febc9)
+
 * **main2.py**  
   main.pyと一緒です。
   TCPClient2.pyのClientクラスを使っています。  
@@ -31,7 +33,9 @@ Haruta-Yamanaka ... **通信機能＆ゲーム内部**
 ## ゲームの進行方法  
 1. Serverを起動
 2. main.py,main2.pyを起動し、GUI画面のstartボタンを押す
-   ![image](https://github.com/user-attachments/assets/9735e202-5669-4bed-a1e4-b5f9436aaa2f)
+   ![image](https://github.com/user-attachments/assets/9735e202-5669-4bed-a1e4-b5f9436aaa2f)  
 3. 接続が確立されると、対戦画面に遷移するのでプレイ
-   ![image](https://github.com/user-attachments/assets/58193462-78f8-4a80-9d00-e315fdf6fae5)
-4. 
+   ![image](https://github.com/user-attachments/assets/58193462-78f8-4a80-9d00-e315fdf6fae5)  
+4. ゲームが終わると、勝ち負けが表示され、10秒後にウィンドウが強制終了  
+   ![image](https://github.com/user-attachments/assets/066409df-9cf3-4edd-a749-81e8985cbb33)  
+
