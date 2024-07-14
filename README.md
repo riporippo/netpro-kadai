@@ -27,3 +27,11 @@ Haruta-Yamanaka ... **通信機能＆ゲーム内部**
   ゲーム進行機能、cardクラスやplayerクラス  
   などの定義を行うスクリプト
   ゲームの根幹を担います。
+
+## ゲームの進行方法  
+1. Serverを起動
+2. main.py,main2.pyを起動し、GUI画面のstartボタンを押す
+   ![image](https://github.com/user-attachments/assets/9735e202-5669-4bed-a1e4-b5f9436aaa2f)
+3. 接続が確立されると、対戦画面に遷移するのでプレイ
+   ![image](https://github.com/user-attachments/assets/58193462-78f8-4a80-9d00-e315fdf6fae5)
+
