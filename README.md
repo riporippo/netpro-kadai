@@ -9,10 +9,13 @@ riporippo ... **GUI作成＆連携**
 Haruta-Yamanaka ... **通信機能＆ゲーム内部**     
 
 ## プログラム解説
-* **main.py**
-  GUIを表示するスクリプト　　
-  TCPClient.py
-* **main2.py**
+* **main.py**  
+  GUIを表示するスクリプト  　　
+  TCPClient.pyのClinetクラスを作って　　
+  card情報をもらい、画面更新を行います。　　
+* **main2.py**  
+  main.pyと一緒です。
+  TCPClient2.pyのClientクラスを使っています。  
 * **TCPClient.py**
 * **TCPClinet2.py**
 * **TCPServer.py**
