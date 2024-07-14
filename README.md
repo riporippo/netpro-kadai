@@ -23,3 +23,7 @@ Haruta-Yamanaka ... **通信機能＆ゲーム内部**
 * **TCPClinet2.py**  
   TCPClient.pyと一緒です。  
 * **TCPServer.py**
+  二つのクライアントからの接続確立  
+  ゲーム進行機能、cardクラスやplayerクラス  
+  などの定義を行うスクリプト
+  ゲームの根幹を担います。
