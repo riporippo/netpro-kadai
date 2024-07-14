@@ -335,7 +335,7 @@ class BattleScene:
 class Main:
     def __init__(self):
         pygame.init()
-        pygame.display.set_caption('神経衰弱')
+        pygame.display.set_caption('神経衰弱Ⅱ')
         self.window_surface = pygame.display.set_mode((WIDTH, HEIGHT))
         self.background = pygame.Surface((WIDTH, HEIGHT))
         self.background.fill(pygame.Color('#FFFFFF'))
