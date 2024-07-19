@@ -1,4 +1,4 @@
-# ネップロ最終制作課題
+# ネップロ最終制作課題 SHINKEI SUIJACK
 
 ## 概要  
 Pythonのsocketとpygame-guiを用いて作成した  
